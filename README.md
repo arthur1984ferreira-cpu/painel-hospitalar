@@ -6,7 +6,7 @@ O Auris é um painel analítico que reúne dados públicos de saúde do Brasil �
 
 ---
 
-## 📊 Dashboard
+##  Dashboard
 
 O painel foi construído em **Power BI** e está dividido em duas páginas:
 
@@ -15,13 +15,8 @@ O painel foi construído em **Power BI** e está dividido em duas páginas:
 | **Painel Hospitalar** | Capacidade instalada de leitos no Brasil (existentes, SUS, não-SUS) por estado, região, tipo de leito e gestão |
 | **Atendimentos SP** | Produção ambulatorial do SUS em São Paulo, por grupo de procedimento e evolução mensal |
 
-📁 Arquivo do relatório: [`powerbi/Auris_Dashboard.pbix`](./powerbi/)
+ Arquivo do relatório: [`powerbi/Auris_Dashboard.pbix`](./powerbi/)
 
-> Adicione aqui 1–2 screenshots do painel finalizado (`docs/screenshot_leitos.png`, `docs/screenshot_atendimentos.png`) para exibir a prévia direto no README:
-> ```markdown
-> ![Painel Hospitalar](docs/screenshot_leitos.png)
-> ![Atendimentos SP](docs/screenshot_atendimentos.png)
-> ```
 
 ---
 
@@ -55,11 +50,11 @@ Sistema de Informações Ambulatoriais do SUS (SIA/SUS) — quantidade de atendi
 
 **Tratamento aplicado:** remoção de rodapé/notas do export do TABNET, separação de código e descrição do procedimento, classificação por grupo oficial SIGTAP, conversão de formato largo (uma coluna por mês) para formato longo, tratamento de valores nulos ("-" → 0).
 
-> ⚠️ **Nota de qualidade dos dados:** o SIA/SUS libera os dados dos últimos meses de forma incremental — competências recentes (ex: mês corrente) tendem a aparecer com volume artificialmente baixo, pois o processamento/consolidação ainda está em andamento. Isso deve ser considerado ao interpretar a evolução mensal no dashboard.
+>  **Nota de qualidade dos dados:** o SIA/SUS libera os dados dos últimos meses de forma incremental — competências recentes (ex: mês corrente) tendem a aparecer com volume artificialmente baixo, pois o processamento/consolidação ainda está em andamento. Isso deve ser considerado ao interpretar a evolução mensal no dashboard.
 
 ---
 
-## 🧱 Estrutura do repositório
+##  Estrutura do repositório
 
 ```
 auris/
@@ -86,7 +81,7 @@ auris/
 
 ---
 
-## 🔧 Como reproduzir
+## Como reproduzir
 
 1. Clone o repositório:
    ```bash
@@ -98,10 +93,10 @@ auris/
 
 ---
 
-## 🏆 Sobre o desafio
+##  Sobre o desafio
 
 Projeto desenvolvido para o **Oracle + FIAP Challenge 2026**, com foco em transformar dados públicos de saúde em informação acionável para gestão hospitalar.
 
-## 📄 Licença
+##  Licença
 
 Os dados utilizados são públicos, disponibilizados pelo Ministério da Saúde (DATASUS/CNES/SIA-SUS). Consulte os termos de uso em [dados.gov.br](https://dados.gov.br).
